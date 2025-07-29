@@ -23,7 +23,7 @@ export default function LudoBoard() {
             <h3>Ludo Board</h3>
             <div className="board">
                 <p>Blue Moves ={move.blue}</p>
-                <button onClick={updateBlue} style={{ backgroundColor: "blue" }}>+1</button>
+                <button onClick={updateBlue} style={{ backgroundColor: "blue",color:"white" }}>+1</button>
                 <p>yellow Moves ={move.yellow}</p>
                 <button onClick={updateYellow} style={{ backgroundColor: "yellow",color: "black" }}>+1</button>
                 <p>Green Moves ={move.green}</p>
